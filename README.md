@@ -45,7 +45,7 @@ _EOF
 
 gmx_mpi trjconv -s md.tpr -f md.xtc -pbc mol -ur compact -n index.ndx -center -o md_np1.xtc # Choose the group a1-3000 for center, system for output
 
-gmx_mpi trjconv -s md.tpr -f md_np1.xtc -o md_np1_fit.xtc -ur compact fit rot+trans
+gmx_mpi trjconv -s md.tpr -f md_np1.xtc -o md_np1_fit.xtc -ur compact -fit rot+trans
 
 
 
