@@ -2,8 +2,6 @@
 
 This is an update from a previous project in a summer school: https://gitlab.com/jhli/PDC_summer_school
 
-More complicated functions could be achived by using mobywat (http://www.mobywat.com/index.php)
-
 Changes to the summer school version:
 
     1). added support for Amber netcdf trajectories
